@@ -1,0 +1,17 @@
+{
+  "name": "cryptochill_sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./build/css/style.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./build/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify/tailwind": "^0.1.4",
+    "tailwindcss": "^3.4.1"
+  }
+}
